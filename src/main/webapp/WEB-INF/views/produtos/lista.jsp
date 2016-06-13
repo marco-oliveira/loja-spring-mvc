@@ -14,6 +14,7 @@
 	<h1>Lista de Produtos Cadastrados</h1>
 	<br>
 	<div>${sucesso }</div>
+	<div>${falha }</div>
 	<br>
 	
 	<table>

@@ -98,7 +98,7 @@
 				<input type="hidden" value="${produto.id }" name="produtoId" />
 				<ul id="variants" class="clearfix">
 					<c:forEach items="${produto.precos }" var="preco">
-						<li class="buy-option"><input type="radio" name="tipo"
+						<li class="buy-option"><input type="radio" name="tipoPreco"
 							class="variant-radio" id="tipo"
 							value="${preco.tipo }" checked="checked" /> <label
 							class="variant-label" >
